@@ -5,17 +5,7 @@
     "desc": "Aprendé los fundamentos de la fuerza con ejemplos prácticos.",
     "thumb": "assets/img/curso1_thumb.jpg",
     "page": "course1.html",
-    "pass": "lucsa"
-  },
-
-  {
-    "id": "curso2",
-    "title": "Curso 2 – Pliometría Avanzada",
-    "desc": "Domina saltos y aterrizajes seguros para alto rendimiento.",
-    "thumb": "assets/img/curso2_thumb.jpg",
-    "page": "course2.html",
-    "pass": "DEMO456"
+    "pass": "DEMO123"
   }
-
-
 ]
+
