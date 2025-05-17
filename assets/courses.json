@@ -1,9 +1,9 @@
 [
   {
     "id": "curso1",
-    "title": "Curso 1 – Fuerza Básica",
-    "desc": "Aprendé los fundamentos de la fuerza con ejemplos prácticos.",
-    "thumb": "assets/img/curso1_thumb.jpg",
+    "title": "Curso 1 – MÉTODOS DE ENTRENAMIENTO Y EVALUACIÓN DEL RENDIMIENTP",
+    "desc": "Aprendé a programar sesiones de fuerza y evaluación",
+    "thumb": "assets/img/logo.mp4",
     "page": "course1.html",
     "pass": "DEMO123"
   }
