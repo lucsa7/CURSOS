@@ -15,17 +15,19 @@
 
   <!-- VIDEO EMBEBIDO DESDE DRIVE -->
   <div class="ratio ratio-16x9 mb-4">
-    <iframe src="https://drive.google.com/file/d/ID_DEL_VIDEO/preview" allowfullscreen></iframe>
+    <!--  ⬇⬇⬇  ID REAL PEGADO  ⬇⬇⬇  -->
+    <iframe src="https://drive.google.com/file/d/1FgO35nCkuZMOrmw9HP5mWkgfx7IUCAOX/preview"
+            allowfullscreen></iframe>
   </div>
 
-  <p>Material complementario, notas, links, etc.</p>
+  <p>Material complementario, notas y enlaces útiles aparecerán aquí.</p>
 </div>
 
-<!-- Bloquea la página si no hay pass correcta en localStorage -->
+<!-- Bloqueo básico con contraseña -->
 <script>
   const page = "course1.html";
-  if(localStorage.getItem(page+"_pass") !== "DEMO123"){
-    alert("Acceso denegado. Volvé a la página principal y colocá la contraseña correcta.");
+  if (localStorage.getItem(page + "_pass") !== "DEMO123") {   // ← cámbialo cuando quieras
+    alert("Acceso denegado. Volvé a la página principal e ingresá la contraseña correcta.");
     window.location = "index.html";
   }
 </script>
