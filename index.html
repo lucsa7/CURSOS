@@ -18,7 +18,7 @@
 
 <script>
 async function cargarCursos () {
-  const res   = await fetch('assets/courses.json');
+    const res = await fetch('assets/courses.json?cb=' + Date.now());
   const cursos = await res.json();
   const cont  = document.getElementById('card-container');
 
