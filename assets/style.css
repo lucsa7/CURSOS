@@ -1,0 +1,6 @@
+body{
+  font-family: system-ui,-apple-system,"Segoe UI",Roboto;
+}
+
+.card-title{font-size:1.1rem;}
+.card-text{font-size:.9rem;}
